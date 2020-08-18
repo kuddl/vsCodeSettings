@@ -1,0 +1,57 @@
+// Place your key bindings in this file to override the defaults
+[
+    /**
+    * K-Namespace
+    **/
+    {
+        "key": "cmd+k cmd+k",
+        "command": "workbench.action.toggleZenMode"
+    },
+    {
+        "key": "cmd+k cmd+e",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "cmd+k cmd+v",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "cmd+k cmd+d",
+        "command": "workbench.view.debug"
+    },
+    {
+        "key": "cmd+k cmd+x",
+        "command": "workbench.extensions.action.showInstalledExtensions"
+    },
+    {
+        "key": "cmd+k cmd+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+
+    /* Tobses own */
+    {
+        "key": "shift+cmd+d",
+        "command": "editor.action.copyLinesDownAction"
+    },
+    {
+        "key": "cmd+k cmd+l",
+        "command": "extension.fuzzySearch"
+    },
+    {
+        "key": "cmd+k cmd+t",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "cmd+shift+u",
+        "command": "git.push"
+    },
+    {
+        "key": "shift+cmd+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+]
